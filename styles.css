@@ -68,7 +68,16 @@ header .header {
     margin: 0 10px;
     color: var(--primary-color);
     font-weight: 700;
+    transition: transform 1.5s ease;
 }
+
+/* LINKS HOVER EFFECT */
+
+.header nav ul li a:hover {
+    color: var(--secondary-color);
+    transform: scale(1.5);
+}
+     
 
 main {
 

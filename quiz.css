@@ -10,6 +10,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    text-align: center;
 }
 
 :root {
@@ -94,5 +95,15 @@ header .header h1 {
     font-size: 2rem;
     font-weight: 600;
     color: var(--secondary-color);
+
+}
+
+/* mAIN SECTION HERE */
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
 
 }
