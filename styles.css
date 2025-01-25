@@ -77,6 +77,8 @@ header .header {
 
 .header nav ul li {
     transition: all 0.3s ease;
+    height: 100%;
+    padding: 10px 5px;
 }
 
 .header nav ul li:hover {
@@ -88,6 +90,13 @@ header .header {
     color: var(--secondary-color);
 }
 
+.header nav ul li:active {
+
+    background-color: var(--secondary-color);
+  
+}.header nav ul li a:active {
+    color: var(--background-color);
+}
      
 
 main {
