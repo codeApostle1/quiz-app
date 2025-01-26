@@ -162,9 +162,10 @@ header .header h1 {
 
 /* POPUP WORDS */
 #qImg {
-    margin: 5%;
+    margin: 1%;
     font-size: 1.3rem;
-    background-color: #4CAF50;
+    width: 100%;
+    color: var(--primary-color);
 }
 
 .quiz {
@@ -259,4 +260,19 @@ button:hover {
 button:active {
     background-color: var(--button-hover-color);
     color: white;
+}
+
+.about-container {
+    padding: 20px 30px;
+}
+
+.about-container h1{
+    color: var(--primary-color);
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    margin: 15px 0;
+    font-size: 2rem;
 }
