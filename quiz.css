@@ -178,6 +178,11 @@ header .header h1 {
     width: 100%;
 }
 
+.option-text {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
 
 .quiz .options {
     display: flex;
