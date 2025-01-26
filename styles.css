@@ -101,10 +101,11 @@ header .header {
 
 main {
 
-    margin: calc(5%) auto;
+    margin: calc(1%) auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 /* main::before {
