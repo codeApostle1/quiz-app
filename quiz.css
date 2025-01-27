@@ -308,13 +308,17 @@ button:active {
      display: flex;
      width: 100%;
      top: 60px;
-        right: 4%;
+        
+        left: -12%;
         z-index: 30;
         background: var(--button-color);
         height: 40vh;
         pad: 20px;
-        
+        width: 100vw;    
+        transition: translateX(0);   
     }
+
+
 
     
     /* header nav {
