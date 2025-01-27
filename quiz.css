@@ -278,6 +278,12 @@ button:active {
 }
 
 @media (max-width: 768px) {
+
+    header .header {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
     .container {
         width: 90%;
     }
