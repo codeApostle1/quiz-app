@@ -293,23 +293,48 @@ button:active {
 
 @media (min-width: 768px) and (max-width: 1023px), (max-width: 768px) {
 
+    .header {
+        position: relative;
+    }
+
+/* middle slide */
     header nav {
      /* display: none; */
      position: absolute;
      display: flex;
      width: 100%;
-     top: 30%;
-        left: 0;
+     top: 60px;
+        right: 4%;
+        z-index: 30;
+        background: var(--button-color);
+        height: 40vh;
+        pad: 20px;
+        
     }
+
+    header nav li {
+        margin-bottom: 2px;
+    }
+
+    
+    header nav {
+
+    }
+
+    /* side bar slide */
 
     header nav ul {
         flex-direction: column;
-        background-color: var(--background-color);
+    
         /* position: absolute; */
         top: 100%;
         left: 0;
         width: 100%;
         display: none;
+    }
+
+    .header nav ul li a {
+        color: var(--background-color);
     }
 
     header .bar-icon {
@@ -321,10 +346,12 @@ button:active {
 
     .container {
         width: 90%;
+        z-index: -3;
     }
 
     .quiz .question {
         font-size: 1.5rem;
+       
     }
 
     .options .option {
