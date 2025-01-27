@@ -290,8 +290,11 @@ button:active {
 }
 
 
+/* 
+@media (min-width: 768px) and (max-width: 1023px), (max-width: 768px) { */
 
-@media (min-width: 768px) and (max-width: 1023px), (max-width: 768px) {
+
+@media (max-width: 1023px) {
 
     .header {
         position: relative;
@@ -312,14 +315,10 @@ button:active {
         
     }
 
-    header nav li {
-        margin-bottom: 2px;
-    }
-
     
-    header nav {
+    /* header nav {
 
-    }
+    } */
 
     /* side bar slide */
 
