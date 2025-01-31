@@ -69,6 +69,7 @@ header .header {
     align-items: center;
     font-size: 1.3rem;
     
+    gap: 10%;
 }
 
 .header nav ul li a {
