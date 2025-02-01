@@ -344,7 +344,7 @@ button:active {
         gap: 0;
     }
 
-    .header nav ul li {
+    .header nav ul a li {
         color: var(--background-color);
         display: flex;
         justify-content: center;
