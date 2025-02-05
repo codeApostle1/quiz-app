@@ -32,3 +32,12 @@ const quizData = [
 
 
 ]
+
+function startQuiz() {
+    questionText.textContent = quizData[currentQuestion].question;
+
+    option1.textContent = quizData[currentQuestion].options[1]
+    option2.textContent = quizData[currentQuestion].options[2]
+    option3.textContent = quizData[currentQuestion].options[3]
+
+}
