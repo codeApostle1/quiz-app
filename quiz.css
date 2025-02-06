@@ -294,6 +294,26 @@ button:active {
     font-size: 2rem;
 }
 
+#submit {
+    background-color: var(--correct-answer-color);
+    
+    border-radius: 5px;
+    border: none;
+    color: var(--background-color);
+    font-weight: 600;
+    font-size: large;
+    cursor: pointer;
+    /* border: 1px solid var(--button-color); */
+    
+}
+
+#button:hover {
+    color: var(--background-color);
+    background-color: var(--correct-answer-color);
+    box-shadow: 1px 1px 1px gray;
+    border: 1px solid var(--text-color);
+}
+
 
 /* 
 @media (min-width: 768px) and (max-width: 1023px), (max-width: 768px) { */
