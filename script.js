@@ -4,6 +4,7 @@ const option1 = document.getElementById("opt1");
 const option2 = document.getElementById("opt2");
 const option3 = document.getElementById("opt3");
 
+const start = document.getElementById("start");
  const previous = document.getElementById("prev");
  const quit = document.getElementById("quit");
  const next = document.getElementById("next");
@@ -33,11 +34,15 @@ const quizData = [
 
 ]
 
+start.addEventListener("click", startQuiz);
+
 function startQuiz() {
     questionText.textContent = quizData[currentQuestion].question;
 
-    option1.textContent = quizData[currentQuestion].options[1]
-    option2.textContent = quizData[currentQuestion].options[2]
-    option3.textContent = quizData[currentQuestion].options[3]
+    option1.textContent = quizData[currentQuestion].options[0]
+    option2.textContent = quizData[currentQuestion].options[1]
+    option3.textContent = quizData[currentQuestion].options[2]
 
 }
+
+
